@@ -9,7 +9,7 @@ Output the tweet count per user as the bucket and the number of Twitter users wh
 In other words, group the users by the number of tweets they posted in 2022 and count the number of users in each group.
 ```
 
-### `tweets` Table
+### 📋 `tweets Table`
 | Column Name | Type |
 |------------|---------|
 | tweet_id | integer |
@@ -17,7 +17,7 @@ In other words, group the users by the number of tweets they posted in 2022 and 
 | msg | string |
 | tweet_date | timestamp |
 
-### `tweets` Example Input
+### 📥 `tweets Example Input`
 
 | tweet_id | user_id | msg | tweet_date |
 |---------:|--------:|-----|------------|
@@ -27,9 +27,19 @@ In other words, group the users by the number of tweets they posted in 2022 and 
 | 241425 | 254 | If the salary is so competitive why won't you tell me what it is? | 03/01/2022 00:00:00 |
 | 231574 | 148 | I no longer have a manager. I can't be managed | 03/23/2022 00:00:00 |
 
-### Example Output
+### 📤 `Example Output`
 
 | tweet_bucket | users_num |
 |-------------:|----------:|
 | 1 | 2 |
 | 2 | 1 |
+
+### 🔗[`Solution.sql`](https://github.com/dhaval-rsp/SQL-Learning-Journey/blob/0d9073d9efb57e4aee7f5658e771c61c501781c5/DataLemur/Easy/001_Histogram_of_Tweets/solution.sql) 
+
+### 🧠 `Thought Process for solution`
+
+### 🖼️ Visual Explanation
+
+### 🚀 `Alternative Solution`
+
+### 💡 `Interview Takeaways`
