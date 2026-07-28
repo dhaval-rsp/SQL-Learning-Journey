@@ -59,7 +59,28 @@ Question language is pretty simple - let us break down in steps
       | 10 | 2 |
       | 5 | 2 |
     
-### 🖼️ Visual Explanation
+### 🖼️ `Visual Explanation`
+#####  `Undestanding histogram`
+Test Scores of `30 Students` Imagine these math scores are as below. We can group them into groups (or bins) of 10 points wide and count the students:
+
+| marks range or bin | marks | no of students |
+|--------------------|-------|----------------|
+|21-30|25|1|
+|31-40|31,39,39|3|
+|41-50|42,45,45,46,49|5|
+|51-60|52,53,54,55,56,57,60|7|
+|61-70|61,63,65,65,68|5|
+|71-80|72,74,76,76|4|
+|81-90|82,85,89|3|
+|91-100|95,95|2|
+
+Here we created histogram that defines `how many students score` particular range wise marks like `7 students` scored marks between `51-60.`
+
+Question would arise that then why would in case of tweet example we did not created range? because data set was small thats why we took particular number of tweets like how many 10 tweets how many 5 tweets
+In case of students marks example the marks range is 0-100 so if we are going to count how many student scored 1 marks, 2 marks, 3 marks ... 100 marks then on our graph there would be 100 bars - but better approach is take range of marks which makes visualization better
+
+![Histogram of Students Marks](https://github.com/dhaval-rsp/SQL-Learning-Journey/blob/a8e904f186c23ab3250048aafec9eaf20658954a/DataLemur/Easy/images/Student%20Marks%20Histogram_Histogram.png)
+
 
 ### 🚀 `Alternative Solution`
 
