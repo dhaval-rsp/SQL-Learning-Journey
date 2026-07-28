@@ -62,6 +62,11 @@ Question language is pretty simple - let us break down in steps
 ### 🖼️ `Visual Explanation`
 > **New to histograms?** Jump to the **[📊 Understanding Histogram](#-understanding-histogram)** section below before continuing.\
 
+> Tweet table - contains user_id & tweet_id\
+> > tweet_id is unique but user_id can be repeate in the table
+> > if we group by the user_id we will found how many tweet posted by 1 user
+> > let suppose user_id 1 tweeted 5 time, user_id 2 tweeted
+
 
 
 
