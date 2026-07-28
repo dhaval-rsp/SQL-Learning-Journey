@@ -49,7 +49,7 @@ Question language is pretty simple - let us break down in steps
 	- user_id 2 posted 10 tweets 
 	- user_id 3 posted 5 tweets 
 	- user_id 4 posted 10 tweets
-- but the question here demands histogram, so instead this simple statistics it is asking for that `how many 10 tweets` posted `by` `how many user?` or `how many 5 tweets` by `how many user` this is whast histogram is
+- but the question here demands histogram, so instead this simple statistics it is asking for that `10 tweets` posted `by` `how many user?` or `5 tweets` by `how many user` this is whast histogram is
   - histogram represent frequency or distribution of quantitative data
   - here our histogram would be number of tweets vs number of user
   - there are 2 users who tweeted 10 times || there are 2 users who tweeted 5 times
@@ -60,8 +60,25 @@ Question language is pretty simple - let us break down in steps
       | 5 | 2 |
     
 ### 🖼️ `Visual Explanation`
-#####  `Undestanding histogram`
-Test Scores of `30 Students` Imagine these math scores are as below. We can group them into groups (or bins) of 10 points wide and count the students:
+> **New to histograms?** Jump to the **[📊 Understanding Histogram](#-understanding-histogram)** section below before continuing.\
+
+
+
+
+
+### 🚀 `Alternative Solution`
+
+### 💡 `Interview Takeaways`
+
+
+
+
+
+### 📊 `Understanding histogram`
+> Jump to the **[🖼️ Visual Explanation](#-visual-explanation)**
+
+Test Scores of `30 Students` Imagine these math scores are as below.\
+We can group (bins) them into 10 points wide(range of 10 like 31-40) and count the students:
 
 | marks range or bin | marks | no of students |
 |--------------------|-------|----------------|
@@ -76,12 +93,16 @@ Test Scores of `30 Students` Imagine these math scores are as below. We can grou
 
 Here we created histogram that defines `how many students score` particular range wise marks like `7 students` scored marks between `51-60.`
 
-Question would arise that then why would in case of tweet example we did not created range? because data set was small thats why we took particular number of tweets like how many 10 tweets how many 5 tweets
-In case of students marks example the marks range is 0-100 so if we are going to count how many student scored 1 marks, 2 marks, 3 marks ... 100 marks then on our graph there would be 100 bars - but better approach is take range of marks which makes visualization better
+Question would arise that then why would in case of tweet example we did not created range? \
+because data set was small that's why we took particular number of tweets like how many user did 10 tweets how many user did 5 tweets
+In case of students marks example the marks range is 0-100.\
+
+So if we are going to count how many student scored 1 marks, 2 marks, 3 marks ... 100 marks then on our graph there would have 100 bars.\
+But better approach is take range of marks which makes visualization better.
+
+Number of bars on the graph we called bins, so here we created 8 bins of 10 marks wide.
 
 ![Histogram of Students Marks](https://github.com/dhaval-rsp/SQL-Learning-Journey/blob/a8e904f186c23ab3250048aafec9eaf20658954a/DataLemur/Easy/images/Student%20Marks%20Histogram_Histogram.png)
 
 
-### 🚀 `Alternative Solution`
 
-### 💡 `Interview Takeaways`
