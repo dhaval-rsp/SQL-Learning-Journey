@@ -50,7 +50,7 @@ Assumption: There are no duplicates in the candidates table.
 | ------------ |
 | 123          |
 
-### 🔗 `check out solution` - [`Solution.sql`](.\solution.sql)
+### 🔗 `check out solution` - [`Solution.sql`](solution.sql)
 
 #
 
